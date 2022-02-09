@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/13f8fb2909.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CSS only -->
+
+   
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <!-- navbar -->
@@ -59,10 +64,37 @@
             </div>
         </div>
     </nav>
-
-   
+    
       <!-- card section -->
       <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="dropdown">
+          <button class="dropbtn ml-4">Select Country &nbsp;<i class="fas fa-angle-down"></i></button>
+          <div class="dropdown-content ">
+            <a href="#">Africa </a>
+            <a href="#">America  </a>
+            <a href="#">Argentina</a>
+            <a href="#">Australia</a>
+            <a href="#">India</a>
+            <a href="#">Brazil</a>
+            <a href="#">Ukraine</a>
+            <a href="#">Moscow</a>
+
+          </div>
+        </div>
+      <div class="dropdown ml-4">
+          <button class="dropbtn">Select Department  &nbsp;<i class="fas fa-angle-down"></i></button>
+          <div class="dropdown-content">
+           <a href="#">Neurology <hr style="color: black; width: 5px;"></a>
+            <a href="#">Obstetrics and gynecology <hr style="color: black; width: 5px;"> </a>
+            <a href="#">Psychiatry <hr style="color: black; width: 5px;"></a>
+            <a href="#">Psychiatry <hr style="color: black; width: 5px;"></a>
+            <a href="#">Pediatrics <hr style="color: black; width: 5px;"></a>
+            <a href="#">Urology <hr style="color: black; width: 5px;"> </a>
+            <a href="#">Ophthalmology <hr style="color: black; width: 5px;"></a>
+            <a href="#">
+              Endocrinology <hr style="color: black; width: 5px;"></a>
+          </div>
+        </div>
         <div class="container px-5 py-24 mx-auto">
           <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
             <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-gray-800 flex-shrink-0">
@@ -275,6 +307,7 @@
             </div>
         </div>
     </footer>
+    <script src="afterdoc.js"></script>
 
 </body>
 </html>
